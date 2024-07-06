@@ -20,14 +20,17 @@ const userSchema = new mongoose.Schema({
     },
     avatar:{
         type: String,
-        default: "https://wallpapercave.com/wp/wp8073162.jpg"
-      },
+        default: 
+    
+       "https://tse1.mm.bing.net/th?id=OIP.FOpPnsTzAW-tZtLt9bFpPAHaFj&pid=Api&P=0&h=180"
+    },
+      
     
         
 
 },
      { timestamps: true}
     );
-    const User = mongoose.model('User',userSchema);
+    const User = mongoose.model('User', userSchema);
     export default User;
 
